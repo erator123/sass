@@ -1,0 +1,41 @@
+$prostor: 5px;
+$navigace: 20px;
+$barva: black;
+$matika: 20px -5px;
+@import "obrazek";
+
+
+
+body html{padding: 0; margin: 0;}
+nav ul { list-style: none; }
+a{text-decoration: none; font-size: $navigace; color: $barva;&:hover
+    {
+       color: red;
+    }}
+body p { font-family: 'Cardo', serif; color: black; font-size: 22px; letter-spacing: $prostor; text-align: center; line-height:130%}
+h1 h2 {font-family: 'Oswald', sans-serif;text-transform: uppercase;  color: red;}
+
+@mixin nav($navigace){
+  -navigace:  $navigace;
+}
+
+
+
+.na{
+    @include nav(20px)
+    ul{margin:0; padding:0;}
+    li{display: inline; padding: 100px;}
+    
+    
+
+
+}
+.nav{
+    @include nav(20px)
+}
+
+h1{text-align: center; letter-spacing: $prostor;}
+h2{text-align: center; font-size: 28px; letter-spacing: $prostor;}
+
+
+ 

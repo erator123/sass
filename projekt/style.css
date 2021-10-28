@@ -1,0 +1,67 @@
+img {
+  border-radius: 8px;
+}
+
+body html {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+body p {
+  font-family: 'Cardo', serif;
+  color: black;
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 130%;
+}
+
+h1 h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: red;
+}
+
+.na {
+  -navigace: 20px;
+}
+
+.na ul {
+  margin: 0;
+  padding: 0;
+}
+
+.na li {
+  display: inline;
+  padding: 100px;
+}
+
+.nav {
+  -navigace: 20px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 5px;
+}
+/*# sourceMappingURL=style.css.map */
